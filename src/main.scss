@@ -1,7 +1,7 @@
 :root {
   --background-1: #000000;
   --background-2: #101010;
-  --foreground-color: #aaaaaa;
+  --foreground-color: #cccccc;
   --border-color: #232323;
   --highlight-color: #5e6239;
   --highlight-contrast: #5e6239;
@@ -41,6 +41,6 @@
 
 #notes-column .note.selected,
 .notes .note.selected {
-  background-color: var(--background-2);
+  background-color: var(--highlight-color);
   color: var(--foreground-color);
 }
